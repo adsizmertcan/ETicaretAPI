@@ -28,6 +28,8 @@ namespace ETicaretAPI.Application.Validators.Products
                 .Must(s => s >= 0)
                     .WithMessage("Stok bilgisi negatif olamaz!");
 
+
+
             RuleFor(p => p.Price)
                 .NotEmpty()
                 .NotNull()
