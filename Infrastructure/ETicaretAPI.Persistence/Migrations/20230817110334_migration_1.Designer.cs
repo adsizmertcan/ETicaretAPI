@@ -12,12 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ETicaretAPI.Persistence.Migrations
 {
     [DbContext(typeof(ETicaretAPIDbContext))]
-<<<<<<<< HEAD:Infrastructure/ETicaretAPI.Persistence/Migrations/20230809121546_mig_1.Designer.cs
-    [Migration("20230809121546_mig_1")]
-========
-    [Migration("20230805104057_mig_1")]
->>>>>>>> af630bde37891d5d69a5ef5400bb12514fb82c86:Infrastructure/ETicaretAPI.Persistence/Migrations/20230805104057_mig_1.Designer.cs
-    partial class mig_1
+    [Migration("20230817110334_migration_1")]
+    partial class migration_1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

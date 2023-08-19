@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Runtime.Serialization;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace ETicaretAPI.Persistence.Migrations
 {
-    public partial class mig_1 : Migration
+    public partial class migration_1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -84,7 +83,6 @@ namespace ETicaretAPI.Persistence.Migrations
                         principalTable: "Products",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
-           
                 });
 
             migrationBuilder.CreateIndex(
